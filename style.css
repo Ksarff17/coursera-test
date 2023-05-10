@@ -1,30 +1,22 @@
-* {
-  box-sizing: border-box;
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
 }
-h1 {
-  text-align: center;
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
 }
-p {
-  border: 1px solid black;
-  color: black;
-  font-size: 18px;
-  background-color: grey;
-  text-align: left;
-  padding: 50px;
-  position: relative;
-  margin: auto;
+#logo-img {
+  background: url("restaurant-logo.png") no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0px;
 }
-.meat {
-  border: 1px solid black;
-  background-color: blanchedalmond;
-  color: black;
-  padding: 5px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  font-size: 22px;
-}
-.row {
+
+/* .row {
   width: 100%;
 }
 .row > div {
@@ -134,4 +126,4 @@ p {
   .col-md-12 {
     width: 100%;
   }
-}
+} */
