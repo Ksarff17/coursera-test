@@ -16,15 +16,53 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
+        <div class="container-fluid">
           <div class="navbar-header">
-            <a href="fakeResturant.html" class=""
+            <a href="fakeResturant.html" class="float-start d-none d-md-block"
               ><div id="logo-img" alt="Logo image"></div
             ></a>
+
+            <div class="navbar-brand">
+              <a href="fakeResturant.html"><h1>David Chu's China Bistro</h1></a>
+              <p>
+                <img src="star-k-logo.png" alt="kosher certificatied" />
+                <span>Kosher Certified</span>
+              </p>
+            </div>
+
+            <div class="navbar-icon">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="menu.categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span
+                  ><br class="hidden-xs" />menu
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
